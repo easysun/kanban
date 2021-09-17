@@ -20,3 +20,10 @@ if len(sys.argv) > 2:
                 if v == sys.argv[2]:
                     show_list.append({k: v})
         print(show_list)
+    elif sys.argv[2] == 'move':
+        for idx, item in enumerate(items):
+            if idx == int(sys.argv[3]) - 1:
+                for k, v in item.items():
+                    item[k] = sys.argv[5]
+        with open('list.json', 'w') as output:
+            output.write(json.dumps(items))
