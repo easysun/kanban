@@ -1,15 +1,10 @@
 # Features
-user can add a new task to kanban
-
-user can see todo list in chronological order
-
-user can move a todo item to WIP
-
-user can see WIP list in chronological order
-
-user can move a WIP item to Done
-
-user can see Done list in chronological order
+1. add a new item to kanban
+2. see todo list in chronological order
+3. move a todo item to WIP
+4. see WIP list in chronological order
+5. move a WIP item to Done
+6. see Done list in chronological order
 
 # For cli
 ## create a item to todo list
